@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddThoughtActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/display_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <TextView
+        android:id="@+id/display_date_and_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@color/defaultTextColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/display_title_edittext"
+        android:transitionName="@string/title_transition"
+        android:scrollHorizontally="false"
+        android:inputType="textCapSentences"
+        android:maxLines="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        />
+
+    <EditText
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        android:inputType="textMultiLine|textCapSentences"
+        android:id="@+id/display_thought_edittext"
+        android:background="@android:color/transparent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+</LinearLayout>

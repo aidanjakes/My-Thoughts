@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#172583</color>
+    <color name="colorPrimaryDark">#050341</color>
+    <color name="colorAccent">#0850CC</color>
+    <color name="darkGrey">#7E7E7E</color>
+    <color name="blue">#0524A2</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="lightThemeBackground">#EEEEEE</color>
+    <color name="darkThemeGrey">#404040</color>
+    <color name="darkThemeLightGrey">#DADADA</color>
+
+    <color name="previewBack">#E6E6E6</color>
+
+    <color name="black">#000000</color>
+
+    <color name="defaultTextColor">#757575</color>
+
+    <color name="prefCategoryDarkTheme">#868EC9</color>
+    <color name="summaryDarkThemeTextColor">#B4B4B4</color>
+    <color name="summaryLightThemeTextColor">#757575</color>
+
+    <color name="darkThemeThoughtBackground">#202020</color>
+
+    <color name="themeSelectButton">#0F0F0F</color>
+    <color name="addThoughtDarkThemeHint">#838383</color>
+    <color name="addThoughtLightThemeHint">#808080</color>
+
+    <color name="displayTimeLightTheme">#A7A7A7</color>
+    <color name="displayTimeDarkTheme">#B8B8B8</color>
+
+    <color name="fabStarColor">#6D6D6D</color>
+    <color name="fabStarSelectedColor">#363636</color>
+
+    <color name="settingsLightModeDisabled">#979797</color>
+
+
+
+
+
+
+</resources>

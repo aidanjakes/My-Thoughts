@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <com.rilchil.mythoughts.CustomPreferenceCategory
+        android:key="appearance_pref_cat"
+        android:title="@string/appearance_category"
+        app:iconSpaceReserved="false">
+
+        <com.rilchil.mythoughts.CustomSwitchPreferenceCompat
+            android:key="switch_dark_preference"
+            android:defaultValue="false"
+            android:title="Dark Mode"
+            app:iconSpaceReserved="false"/>
+
+        <com.rilchil.mythoughts.CustomDropDownPreference
+            android:key="pref_text_style"
+            android:title="@string/dropdown_bold_text_style"
+            android:summary="Select text style of thought items"
+            android:entries="@array/dropdown_text_styles"
+            android:entryValues="@array/dropdown_text_styles"
+            app:iconSpaceReserved="false"/>
+
+    </com.rilchil.mythoughts.CustomPreferenceCategory>
+
+    <com.rilchil.mythoughts.CustomPreferenceCategory
+        android:key="reminder_pref_cat"
+        android:title="Notifications"
+        app:iconSpaceReserved="false">
+
+        <com.rilchil.mythoughts.CustomSwitchPreferenceCompat
+            android:key="switch_notification_pref"
+            android:title="Enable Reminders"
+            app:iconSpaceReserved="false"/>
+
+        <com.rilchil.mythoughts.CustomPreference
+            android:key="noti_time_pref"
+            android:title="Reminder Time"
+            app:iconSpaceReserved="false"
+            android:summary="20:00"
+            />
+
+    </com.rilchil.mythoughts.CustomPreferenceCategory>
+
+    <com.rilchil.mythoughts.CustomPreferenceCategory
+        android:key="backup_pref_cat"
+        android:title="@string/backup_restore_cat"
+        app:iconSpaceReserved="false">
+
+        <com.rilchil.mythoughts.CustomPreference
+            android:key="pref_login"
+            android:title="Google Account Login"
+            android:summary="Tap to sign in"
+            app:iconSpaceReserved="false"/>
+
+
+        <com.rilchil.mythoughts.CustomPreference
+            android:key="pref_backup"
+            android:title="Backup"
+            app:iconSpaceReserved="false"/>
+
+        <com.rilchil.mythoughts.CustomPreference
+            android:key="pref_restore"
+            android:title="Restore"
+            app:iconSpaceReserved="false"/>
+
+
+
+    </com.rilchil.mythoughts.CustomPreferenceCategory>
+
+
+</PreferenceScreen>
